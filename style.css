@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1.4em;
+    vertical-align: baseline;
+    text-decoration: none;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    margin: 1rem;
+    color: hsl(217, 12%, 63%);
+}
+
+.container article {
+    position: relative;
+    min-width: 200px;
+    max-width: 500px;
+    padding: 1.5rem;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 1.5rem;
+}
+
+.star {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    background-color: hsla(216, 12%, 54%, 0.3);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+img {
+    width: 1.1rem;
+    height: auto;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    padding: 1rem 0;
+}
+
+ul {
+    margin: 1rem 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    float: left;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    background-color: hsl(216, 12%, 54%, 0.3);
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+}
+
+.btn {
+    background-color: hsl(25, 97%, 53%);
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    width: 100%;
+    vertical-align:baseline;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
